@@ -1,0 +1,145 @@
+.login-container {
+    font-family: Arial, sans-serif;
+  }
+  
+  h1 {
+    font-size: 3.5rem; 
+    color: #1a2b3c;
+    margin-bottom: 1.5rem;
+    text-align: center;
+    font-weight: 600; 
+    margin-top: 1.5em;
+  }
+  
+  .form-card {
+    max-width: 28rem;
+    margin: 2rem auto;
+    background-color: #ffffff;
+    border-radius: 0.5rem;
+    padding: 2rem;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    font-size: 1.25rem;
+    color: #1a2b3c;
+    margin-bottom: 1.5rem;
+  }
+  
+  .form-group {
+    margin-bottom: 1.25rem;
+  }
+  
+  .form-group.error input {
+    border-color: #e53e3e;
+  }
+  
+  label {
+    display: block;
+    font-size: 0.875rem;
+    color: #4a5568;
+    margin-bottom: 0.5rem;
+  }
+  
+  .input-wrapper {
+    position: relative;
+  }
+  
+  input[type="email"],
+  input[type="password"],
+  input[type="text"] {
+    width: 100%;
+    padding: 0.75rem;
+    font-size: 1rem;
+    border: 1px solid #d1d5db;
+    border-radius: 0.25rem;
+  }
+  
+  .error-icon {
+    position: absolute;
+    right: 0.75rem;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #e53e3e;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  .error-message {
+    color: #e53e3e;
+    font-size: 0.75rem;
+    margin-top: 0.25rem;
+  }
+  
+  .toggle-password {
+    position: absolute;
+    right: 0.75rem;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    color: #4a5568;
+    font-size: 0.875rem;
+    cursor: pointer;
+  }
+  
+  .form-options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.5rem;
+  }
+  
+  .remember-me {
+    display: flex;
+    align-items: center;
+    font-size: 0.875rem;
+    color: #4a5568;
+  }
+  
+  .remember-me input {
+    margin-right: 0.5rem;
+  }
+  
+  .forgot-password {
+    font-size: 0.875rem;
+    color: #3182ce;
+    text-decoration: none;
+  }
+  
+  .form-actions {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .back-button,
+  .login-button {
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    border-radius: 0.25rem;
+    cursor: pointer;
+  }
+  
+  .back-button {
+    background-color: #ffffff;
+    color: #4a5568;
+    border: 1px solid #d1d5db;
+  }
+  
+  .login-button {
+    background-color: #4299e1;
+    color: #ffffff;
+    border: none;
+  }
+  
+  .login-footer {
+    text-align: center;
+    margin-top: 1.5rem;
+    font-size: 0.875rem;
+    color: #4a5568;
+  }
+  
+  .login-footer a {
+    color: #3182ce;
+    text-decoration: none;
+  }

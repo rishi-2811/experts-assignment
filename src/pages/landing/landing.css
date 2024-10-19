@@ -1,0 +1,13 @@
+.land-image-container{
+    flex-grow: 1;
+}
+
+.land-image-container img{
+    width:100%;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    max-height: 100vh;
+}
